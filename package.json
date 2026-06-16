@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "Volunteer Registration App",
   "main": "backend/server.js",
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
   "scripts": {
     "start": "node backend/server.js",
     "build": "npm run build:frontend",
